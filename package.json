@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "start": "ts-node-dev src/index.ts"
+    "start": "ts-node-dev --inspect=0.0.0.0:9234 src/index.ts"
   },
   "keywords": [],
   "author": "",
