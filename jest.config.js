@@ -9,8 +9,13 @@ const config = {
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageProvider: "babel",
+  preset: 'ts-jest',
+  transform: {
+		'\\.ts$': 'ts-jest',
+	},
   testMatch: ['**/*.spec.ts'],
-  setupFiles: ['dotenv/config']
+  setupFiles: ['dotenv/config'],
+  roots: ['<rootDir>/src'],
 };
 
 module.exports = config;
