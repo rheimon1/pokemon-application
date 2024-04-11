@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  pokemonback:
+    container_name: pokemon-backend
+    build:
+      context: ./pokemon-backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./pokemon-backend:/var/wwww/html/pokemon-backend
+    networks:
+      - shared_network
+
+  pokemonfront:
+    container_name: pokemon-frontend
+    build:
+      context: ./pokemon-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./pokemon-frontend:/var/wwww/html/pokemon-frontend
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    driver: bridge
+    name: shared_network
