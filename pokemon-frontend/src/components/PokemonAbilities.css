@@ -1,0 +1,44 @@
+h1 {
+  color: #395FAA;
+}
+
+.btn-pokemon {
+  background-color: #FFCB05;
+  color: #395FAA;
+  border-color: #395FAA;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.btn-pokemon:active {
+  background-color: #FFCB05 !important;
+  color: #395FAA !important;
+  border-color: #395FAA !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  opacity: 0.8 !important;
+}
+
+.btn-pokemon:hover {
+  background-color: #FFCB05 !important;
+  color: #395FAA !important;
+  border-color: #395FAA !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  opacity: 0.8 !important;
+}
+
+th {
+  background-color: #395FAA !important;
+  color: #FFCB05 !important;
+}
+
+td {
+  background-color: #395FAA !important;
+  color: #FFCB05 !important;
+}
+
+.text-pokemon {
+  background-color: #395FAA !important;
+  color: #FFCB05 !important;
+}
