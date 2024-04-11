@@ -18,3 +18,7 @@ Essa aplicação foi construída com React, Typescript, Axios, HTML, CSS e é re
 4. No diretório principal, executar o comando `docker compose  up --build -d` e aguardar a criação e execução dos containers;
 5. Ao finalizar o passo anterior, acessar a url `http://localhost:3001/` no navegador e a o projeto já está pronta para ser utilizada;
 6. Para utilizar a API fornecida pelo backend, basta realizar requisições HTTP do tipo GET para a url `http://localhost:3000/api/v1/pokemon/:name/abilities`;
+
+## Interface do Projeto
+
+<img src="./assets/images/project_image.png">
